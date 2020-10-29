@@ -29,7 +29,7 @@
 * [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
 
 ## Test Instructions
-* No tset required
+* No test required
 
 ## License
 * MIT License
