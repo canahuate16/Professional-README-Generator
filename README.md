@@ -17,7 +17,7 @@
 * This is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package]
 
 ## Installation Instructions
-*Install NPN to acquire inquirer package
+* Install NPN to acquire inquirer package
 
 ## Usage Information
 * Generates a professional README file
