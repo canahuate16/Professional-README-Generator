@@ -1,11 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
-    // array of questions for user
+    
     return inquirer.prompt([
         {
             type: "input",
@@ -59,7 +58,6 @@ function promptUser() {
         ]);
       }
 
-// function to generate markdown for README
 function generateREADME(answers) {
   return `# ${answers.project_title}
     
@@ -101,7 +99,6 @@ function generateREADME(answers) {
 * Follow me on Github at [${answers.github}](http://github.com/${answers.github})`;
   
 }
-
 
 promptUser()
   .then(function(answers) {
