@@ -102,12 +102,12 @@ function generateREADME(answers) {
   
 }
 
-// function call to initialize program
+
 promptUser()
   .then(function(answers) {
     const readme = generateREADME(answers);
 
-    // function to write README file
+ 
     return writeFileAsync("README.md", readme);
   })
   .then(function() {
