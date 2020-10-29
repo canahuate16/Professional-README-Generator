@@ -25,21 +25,21 @@ function promptUser() {
           {
             type: "input",
             name: "use",
-            message: "What is the usage information?"
+            message: "What is the use of the application"
           },
           {
             type: "input",
             name: "contributions",
-            message: "What are the contribibutions guidelines?"
+            message: "Are there any contribution rules?"
           },
           {
             type: "input",
             name: "test",
-            message: "What are the test instructions?"
+            message: "Please provide test instructions if applicable"
           },
           {
             type: "checkbox",
-            message: "Which license is your application covered under?",
+            message: "License?",
             name: "license",
             choices: [
               "[MIT License](LICENSE.txt)", 
@@ -49,12 +49,12 @@ function promptUser() {
           {
             type: "input",
             name: "email",
-            message: "What is your email account?"
+            message: "Enter your email account"
           },
           {
             type: "input",
             name: "github",
-            message: "What is your github username?"
+            message: "Enter your github username"
           }
         ]);
       }
