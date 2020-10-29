@@ -10,7 +10,8 @@
 7. [License](#license)
 8. [Questions](#questions)
 
-# Application video: https://drive.google.com/file/d/11SUc5HLHiW2a2C1NcK_l5f_JqlYxEiXa/view
+## Application video:
+* https://drive.google.com/file/d/11SUc5HLHiW2a2C1NcK_l5f_JqlYxEiXa/view
 
 ## Project Description
 * This is a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package]
